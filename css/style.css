@@ -1,0 +1,35 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.music-buttons-container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    height: 200px;
+    display: flex;
+    place-content: center;
+    place-items: center;
+}
+
+.music-button {
+    height: 80px;
+    width: 80px;
+    border-radius: 80px;
+    margin: 8px 12px;
+    border: none;
+    background-color: #3a9;
+    color: #fff;
+}
+
+.place-center {
+    display: flex;
+    flex-direction: column;
+    place-content: center;
+    place-items: center;
+}
+
+.full-h {
+    height: 100vh;
+}
